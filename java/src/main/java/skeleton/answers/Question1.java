@@ -4,7 +4,7 @@ public class Question1 {
 
     public static double calculateTotalPayment(double initialLevelOfDebt, double interestPercentage, double repaymentPercentage) {
         // TODO Auto-generated method stub
-        return -5;
+        return (initialLevelOfDebt + initialLevelOfDebt*interestPercentage*repaymentPercentage/100);
     }
 
 }
